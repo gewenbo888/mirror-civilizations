@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Gewenbo", url: "https://psyverse.fun" }],
   alternates: { canonical: "/", languages: { en: "/", "zh-CN": "/", "x-default": "/" } },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Mirror Civilizations · 镜像文明 — China and Europe in Parallel" }],
     title: "Mirror Civilizations · 镜像文明",
     description:
       "China and Europe as the same essay written twice — Hong Kong is Venice, Luoyang is Athens, Wuhan is Alexandria. 25 pairs, 3 axes, bilingual.",
@@ -32,6 +33,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "Mirror Civilizations · 镜像文明",
     description: "China and Europe as the same essay written twice — 25 paired cities, 3 deep axes.",
